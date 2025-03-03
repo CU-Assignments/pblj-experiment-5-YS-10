@@ -48,7 +48,7 @@ class StudentSerialization {
     }
 
     public static void main(String[] args) {
-        Student student = new Student(21, "bahubali", 6.75);
+        Student student = new Student(21, "yogendra sharma", 6.98);
         String filename = "student.ser";
         serializeStudent(student, filename);
 
